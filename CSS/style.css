@@ -24,12 +24,12 @@ nav ul li a{
 .last{
     padding: 15px 30px;
     border: 2px white solid;
-    border-radius: 30px;
+    border-radius: 30px;    transition: .5s;
+
 }
 .last:hover{
     color: white;
     background-color: mediumaquamarine;
-    transition: .5s;
 }
 header{
     height: 100vh;
@@ -55,11 +55,11 @@ header a{
     color: white;
     padding: 15px 50px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold;    transition: .5s;
+
     border-radius: 30px;
 }
 header a:hover{
-    transition: .5s;
     color: white;
     background-color: rgba(122, 51, 0, 0);
 }
@@ -114,19 +114,20 @@ header img{
     color: mediumaquamarine;
     border: 2px mediumaquamarine solid;
     padding: 15px 30px;
-    border-radius: 30px;
+    border-radius: 30px;    transition: .5s;
+
     font-weight: bold;
 }
 #sec a:hover{
     background-color: mediumaquamarine;
     color: white;
-    transition: .5s;
 }
 .div2{
     box-shadow: 5px 5px 5px 5px rgba(54, 54, 54, 0.124);
     background-color: white;
     text-align: center;
-    padding: 15px;
+    padding: 15px;    transition: .5s;
+
     height: 200px;
     font-size: 1.5rem;
 }
@@ -143,7 +144,6 @@ header img{
 }
 .div2:hover{
     transform: scale(1.1);
-    transition: .5s;
 }
 #two{
     background: linear-gradient(whitesmoke , rgb(225, 225, 225));
@@ -156,7 +156,8 @@ header img{
     text-align: center;
     padding: 20px;
     background: white;
-    height: 400px;
+    height: 400px;    transition: .5s;
+
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 .div3 img{
@@ -172,7 +173,6 @@ header img{
 .div3:hover{
     border-radius: 10px;
     transform: scale(1.05);
-    transition: .5s;
 }
 .img{
     text-align: center;
@@ -182,11 +182,11 @@ header img{
 .img img{
     width: 80%;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 10px;    transition: .5s;
+
 }
 .img img:hover{
     transform: scale(1.1);
-    transition: .5s;
     border-radius: 0px;
 }
 .text{
